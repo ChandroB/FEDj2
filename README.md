@@ -40,11 +40,11 @@ https://www.odido.nl/
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
-  <img src="readme-images/odiddo-home.pdf" width="375px" alt="screenshot telefoon pagina">
+  <img src="readme-images/odido-homepagina.png" width="375px" alt="screenshot telefoon pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
-  <img src="readme-images/odido-telefoon.pdf" width="375px" alt="screenshot telefoon pagina">
+  <img src="readme-images/mobiel-pagina.png" width="375px" alt="screenshot telefoon pagina">
  
 </details>
 
