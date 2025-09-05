@@ -31,7 +31,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 ## Je website
-https://www.samsung.com/nl/offer/?cid=nl_paid_ppc_GOOGLE_AG~Samsung-Pure_AT~stads_MD~h_PK~roah_PB~google_PL~goads_CH~search_KS~ba_ecommerce_CN~E-store-General-Pure_BS~oth_PH~on_MK~nl_PR~multi_SB~cobra_OB~conv_FS~lo_KS~ba_text_none_none&gclsrc=aw.ds&gad_source=1&gad_campaignid=11249516334&gbraid=0AAAAADihVrgQ9EqvGYKbTZdatT5ILhgym&gclid=CjwKCAjwiNXFBhBKEiwAPSaPCSzoJspTe6XhjaPbi9Q1_zPNVcL-Y6iYsrIzXuI89d-8Z5F5PpAwHhoCVFUQAvD_BwE
+https://www.odido.nl/
 <details open>
   <summary>uitwerken voor kick-off werkgroep</summary>
 
@@ -40,11 +40,11 @@ https://www.samsung.com/nl/offer/?cid=nl_paid_ppc_GOOGLE_AG~Samsung-Pure_AT~stad
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/odiddo-home.pdf" width="375px" alt="screenshot telefoon pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/odido-telefoon.pdf" width="375px" alt="screenshot telefoon pagina">
  
 </details>
 
