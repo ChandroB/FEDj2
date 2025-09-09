@@ -40,7 +40,7 @@ https://www.odido.nl/
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
-  <img src="readme-images/odido-homepagina.png" width="375px" alt="screenshot telefoon pagina">
+  <img src="readme-images/Samsung Galaxy A9+ tablet - Odido.png width="375px alt="screenshot telefoon pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
