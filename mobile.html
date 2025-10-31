@@ -1,12 +1,27 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/svg+xml" href="/images/favicon.ico">
-    <link rel="stylesheet" href="/styles/style.css">
-    <title>odiddo</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+        .rotate-tablet {
+            width: 300px;
+            animation: spin 5s linear infinite;
+        }
+
+        @keyframes spin {
+            from {
+                transform: rotateY(0deg);
+            }
+
+            to {
+                transform: rotateY(360deg);
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -14,15 +29,11 @@
         <header>
             <nav>
                 <ul>
-                    <li><a href="https://www.odido.nl/" class="active">Consument</a></li>
-                    <li><a href="https://www.odido.nl/zakelijk">Zakelijk</a></li>
+                    <li><a href="https://www.odido.nl/">consument</a></li>
+                    <li><a href="https://www.odido.nl/zakelijk">zakelijk</a></li>
                 </ul>
-            </nav>
 
-            <nav>
-
-
-                <img src="images/odido-logo.svg" alt="">
+                <img src="img/images/odido-logo.svg" alt="Odido logo" />
                 <ul class="icons">
                     <li>
                         <a href="https://www.odido.nl/login" target="_blank">inloggen</a>
@@ -36,7 +47,7 @@
                     </li>
                     <li>
                         <button aria-label="Menu openen">
-                            <img src="/images/menu.svg" alt="Menu icoon">
+                            <img src="/img/images/" alt="Menu icoon">
                         </button>
                     </li>
                 </ul>
@@ -49,65 +60,80 @@
             <a
                 href="https://www.odido.nl/mobiel-abonnement/data-sim-only?shop=product&ch=es&cc=con&sc=acq&dr=24&pr=MAT01,MAT21,27606115">Sim
                 only</a>
-
-            <h1><span class="samsung">Samsung</span> Galaxy Tab A9 Plus</h1>
+            <h1><span class="samsung">Samsung</span>Galaxy Tab A9 Plus</h1>
             <p>64GB Zwart</p>
+
+            <button aria-label="rotate"><img src="" alt=""></button>
+            <button aria-label="rotate"><img src="" alt=""></button>
+
+
+            <!-- Roterende tablet -->
+            <img src="/img/images/2024-0119-odd-tablet-visuals-dvi-front-samsung-galaxy-tab-a9-305x450.webp"
+                alt="Roterende tablet" class="rotate-tablet">
+
+            <img src="/img/images/prijzen slag.png" alt="Prijzenslag logo">
 
             <ul class="gallery tablet">
                 <li>
                     <button aria-label="Bekijk tablet voorkant">
-                        <img src="images/tablet-voorkant.webp" alt="Tablet voorkant">
+                        <img src="/img/images/tablet voorkant.webp" alt="Tablet voorkant">
                     </button>
                 </li>
                 <li>
                     <button aria-label="Bekijk tablet zijkant">
-                        <img src="images/tablet-zijkant.webp" alt="Tablet zijkant">
+                        <img src="/img/images/tablet zijkant.webp" alt="Tablet zijkant">
                     </button>
                 </li>
                 <li>
                     <button aria-label="Bekijk tablet achterkant">
-                        <img src="images/tablet-achterkant.webp" alt="Tablet achterkant">
+                        <img src="/img/images/tablet achterkant.webp" alt="Tablet achterkant">
                     </button>
                 </li>
             </ul>
-
             <p>Direct leverbaar, laten bezorgen of ophalen in de Odido Shop.</p>
-
             <h2>1 Kies kleur en geheugen</h2>
             <h3>kleur</h3>
             <ul class="opties">
-                <li><button class="kleur zwart" aria-label="kleur: zwart"></button></li>
+                <li><button class="kleur zwart" aria-label="kleur: zwart"></button>
+                </li>
             </ul>
 
             <h3>Geheugen</h3>
             <ul class="opties">
-                <li><button class="geheugen" aria-label="Geheugen: 64GB">64GB</button></li>
+                <li>
+                    <button class="geheugen" aria-label="Geheugen: 64GB">64GB</button>
+                </li>
             </ul>
 
             <h3>
-                <img src="images/icons.svg" alt="" aria-hidden="true">
+                <img src="/img/icons/" alt="" aria-hidden="true">
                 Oplader informatie
             </h3>
 
             <h3>
-                <img src="images/energy-label-g.svg" alt="label" aria-hidden="true">
+                <img src="/img/images/energy-label-g.svg" alt="label" aria-hidden="energie">
                 energielabel
             </h3>
 
-            <img src="images/prijzenslag_pdp_promo2.svg" alt="Prijzenslag">
+            <a href=""></a>
 
+
+            <img src="img/images/prijzen slag.png" alt="prijzen" srcset="">
             <h3>Nu €155 toestelkorting.</h3>
             <p>Op de Samsung Galaxy Tab A9+. Bestel nu en maak kans op 1 van de 1995 prijzen. Sla dus snel je slag.</p>
         </section>
-
         <section>
             <h2>2. Ontdek je korting</h2>
             <p>Is er een ander Odido mobiel abonnement of Odido Internet abonnement op je adres?</p>
 
             <h3>Keuze</h3>
             <ul class="knop">
-                <li><button class="keuze nee" aria-label="Keuze: Nee">Nee</button></li>
-                <li><button class="keuze ja" aria-label="Keuze: Ja">Ja</button></li>
+                <li>
+                    <button class="keuze nee" aria-label="Keuze: Nee">Nee</button>
+                </li>
+                <li>
+                    <button class="keuze ja" aria-label="Keuze: Ja">Ja</button>
+                </li>
             </ul>
 
             <h2>3. Kies je internetbundel</h2>
@@ -140,14 +166,18 @@
             <h3>Je geselecteerde bundel</h3>
             <h4>2 GB Data Only in NL en EU</h4>
             <p>Downloadsnelheden tot 300 Mbit/s, uploadsnelheden tot 80 Mbit/s in Nederland.</p>
+            <a href=""></a>
         </section>
-
         <section>
             <h2>4 Kies je looptijd</h2>
             <p>Kies zelf de looptijd van jouw abonnement.</p>
             <ul class="knop extra">
-                <li><button class="jaar-2" aria-label="2 jaar">2 jaar</button></li>
-                <li><button class="jaar-1" aria-label="1 jaar">1 jaar</button></li>
+                <li>
+                    <button class="2 jaar" aria-label="2: jaar">2 jaar</button>
+                </li>
+                <li>
+                    <button class="1 jaar" aria-label="1: jaar">1 jaar</button>
+                </li>
             </ul>
         </section>
 
@@ -155,206 +185,20 @@
             <h2>5 Kies je toestelbetaling</h2>
             <p>De totale toestelprijs (€ 144) blijft altijd gelijk.</p>
             <label for="slider">Eenmalig: €</label>
-            <span id="eenmalig">84.00</span><br>
+            <label id="eenmalig">84.00</label><br>
 
             <label for="slider">Per maand: €</label>
-            <span id="permaand">2.50</span><br>
+            <label id="permaand">2.50</label><br>
 
-            <input type="range" id="slider" min="0" max="100" value="0">
+            <input type="range" id="slider" min="0" max="100" value="0">>
         </section>
-
-        <h2>
-            Je bestelling
-            <img src="/images/help-tip.svg" alt="">
-        </h2>
-        <p>Maandelijks € 11,00</p>
-        <p>Eenmalig € 3,39</p>
-        <p>Verzekering toevoegen</p>
-        <ul class="knop">
-            <li><button class="keuze nee" type="button" data-keuze="nee">Nee</button></li>
-            <li><button class="keuze ja" type="button" data-keuze="ja">Ja</button></li>
-        </ul>
-
-
-        <p>
-            Je betaalt bij ons geen rente bij het kopen van een toestel met krediet.
-            Deze lening wordt verstrekt door Odido Finance bv, Waldorpstraat 60, 2521 CC Den Haag.
-        </p>
-
-
-        <ul class="krediet-lijst">
-            <li>
-                <strong>Totale toestelkosten</strong>
-                <span>€144,00</span>
-            </li>
-            <li>
-                <strong>Eenmalige betaling</strong>
-                <span>€0,00</span>
-            </li>
-            <li>
-                <strong>Totaal kredietbedrag</strong>
-                <span>€144,00</span>
-            </li>
-            <li>
-                <strong>Termijnbedrag</strong>
-                <span>€2,50</span>
-            </li>
-            <li>
-                <strong>Duur overeenkomst</strong>
-                <span>24 maanden</span>
-            </li>
-            <li>
-                <strong>Vaste debetrentevoet / JKP</strong>
-                <span>0%</span>
-            </li>
-        </ul>
-
-        <p>
-            Je betaalt bij ons geen rente bij het kopen van een toestel op krediet.
-            De krediettabel bevat voorbeelden van toestelkredieten en de prijs die je hiervoor per maand betaalt.
-            Het toestelkrediet wordt aangeboden door Odido Finance bv, Waldorpstraat 60, 2521 CC Den Haag en is een
-            aflopend goederenkrediet.
-            Lees meer of vraag in de winkel of via onze Service naar de kredietvoorwaarden en het
-            standaardinformatieblad.
-
-        </p>
+        
 
 
 
 
-        <section>
-            <h2>Specificaties</h2>
-            <p>Bekijk alle technische Specificaties</p>
-        </section>
 
-        <section>
-            <h2>Samsung Galaxy Tab A9+ kopen.</h2>
-            <p>Met de Samsung Galaxy Tab A9+ haal je een veelzijdige en supersnelle tablet
-                in huis. Het scherm heeft een
-                resolutie van 1920 x 1200 pixels en is 11 inch groot. Kan je fijn series op
-                kijken dus. En filmmuziek
-                klinkt nog beter door het geluid uit de quad speakers. Deze tablet is
-                perfect als je huisgenoten iets op
-                de televisie willen kijken en jij je favoriete serie ernaast. Verder heeft
-                de Samsung tablet een
-                verversingssnelheid van 90 Hz. Dat betekent soepele beeldovergangen, ook
-                tijdens het gamen of snel
-                swipen tussen verschillende apps. Hiermee is de A9+ iets sneller dan de
-                Samsung Galaxy Tab S9 met een
-                verversingssnelheid van 60 Hz. De Qualcomm SM6375 processor is de computer
-                van de tablet, daardoor is
-                hij zo supersnel. Voor scherpe videobelgesprekken hebben de cameras een
-                upgrade gehad. De Samsung
-                Galaxy Tab A9+ heeft een 5 MP camera aan de voorkant en 8 MP camera aan de
-                achterkant. De batterij van
-                de tablet heeft 7,040 mAh: hier kan je makkelijk 2 tot 3 dagen mee doen.
-                Handig. Ontdek alles over de
-                Samsung Galaxy Tab A9+</p>
-
-            <h2>Meer over de Galaxy Tab A9+</h2>
-            <img src="/images/front-back_samsung_tab_a9-plus.webp" alt="Tablet front en back">
-
-            <h2>Altijd verbonden</h2>
-            <h3>de samsung Galaxy Tab A9+</h3>
-            <ul>
-                <li>Model: Samung Galaxy Tab A9+</li>
-                <li>4G</li>
-                <li>5G</li>
-                <li>Intern geheugen: 64 GB of 128 GB</li>
-                <li>Schermreselutie 1920 x 1200 pixels</li>
-                <li>Camera achter: 10 PM</li>
-                <li>camera voor: 5 Mp</li>
-                <li>Batterijcapaciteit 7.040</li>
-                <li>SD-kaart ondersteuning: ja, microSD tot 1 TB</li>
-            </ul>
-
-            <a
-                href="https://www.odido.nl/samsung/galaxy-tab-a9-plus?id=22039379&memory=64GB&color=Zwart&shop=product&ch=es&cc=con&sc=acq&dr=24&pr=MAT01,MAT21,SK307,27606115&lp=2#se1">Bestel
-                nu →</a>
-
-            <h2>Afmetingen</h2>
-            <h3>Sansung Galaxy Tab A9+</h3>
-            <ul>
-                <li>Breedte: 257,1 mm</li>
-                <li>Dikte: 6,9 mm</li>
-                <li>Hoogte: 168,7 mm</li>
-                <li>Scherm: 11</li>
-            </ul>
-
-            <a
-                href="https://www.odido.nl/samsung/galaxy-tab-a9-plus?id=22039379&memory=64GB&color=Zwart&shop=product&ch=es&cc=con&sc=acq&dr=24&pr=MAT01,MAT21,SK307,27606115&lp=2#se1">Bestel
-                nu →</a>
-        </section>
-
-        <section>
-            <h2>Veelgestelde vragen</h2>
-            <p>Kan ik deze tablet ook koppelen met een samsung telefoon
-                <img src="/images/icons8-plus-24.png" alt="Plus icon">
-            </p>
-
-            <ul class="service-list">
-                <li class="service service-phone">
-                    <h3>Bel met Odido Service.</h3>
-                    <p>Liever contact met onze klantenservice? Bellen kan natuurlijk ook!
-                    </p>
-                    <a href="">Contact met Odido</a>
-                </li>
-                <li class="service service-shop">
-                    <h3>Welkom in de Shop.</h3>
-                    <p>Echt persoonlijk advies? Of een nieuwe telefoon kopen? We zijn er
-                        voor je in onze Odido Shops.
-                    </p>
-                    <a href="">De Shops van Odido</a>
-                </li>
-                <li class="service service-app">
-                    <h3>Check onze app.</h3>
-                    <p>Bekijk je rekening, verhoog je internetsnelheid en regel alles wat je
-                        wil met de Odido App.</p>
-                    <a href="https://www.odido.nl/odido-app">De app van Odido</a>
-                </li>
-            </ul>
-        </section>
     </main>
-
-    <footer>
-        <nav>
-            <ul>
-                <li><a href="">Populaire telefoons</a></li>
-                <li><a href="">Mobiel</a></li>
-                <li><a href="">Internet + TV</a></li>
-                <li><a href="">Service en contact</a></li>
-                <li><a href="">Snel naar</a></li>
-            </ul>
-        </nav>
-
-        <ul class="social-media">
-            <li><a href=""><img src="instagram-icon.svg" alt="Instagram"></a></li>
-            <li><a href="images/"><img src="facebook-icon.svg" alt="Facebook"></a></li>
-            <li><a href=""><img src="linkedin-icon.svg" alt="LinkedIn"></a></li>
-            <li><a href=""><img src="youtube-icon.svg" alt="YouTube"></a></li>
-        </ul>
-
-        <ul class="app-downloads">
-            <li><a href=""><img src="appstore-badge.svg" alt="Download op App Store"></a></li>
-            <li><a href=""><img src="googleplay-badge.svg" alt="Download op Google Play"></a></li>
-        </ul>
-
-        <nav class="footer-links">
-            <ul>
-                <li><a href="/over-ons">Over Odido</a></li>
-                <li><a href="https://newsroom.odido.nl/">Odido nieuws</a></li>
-                <li><a href="https://werkenbij.odido.nl/vacatures">Werken bij Odido</a></li>
-                <li><a href="/blog/">Blog</a></li>
-                <li><a href="/tarieven">Tarieven</a></li>
-                <li><a href="/voorwaarden">Voorwaarden</a></li>
-                <li><a href="/privacy">Privacy</a></li>
-                <li><a href="/cookies">Cookies</a></li>
-                <li><a href="/toegankelijkheid">Toegankelijkheid</a></li>
-            </ul>
-        </nav>
-
-        <p>© Odido. Alle rechten voorbehouden.</p>
-    </footer>
 </body>
 
 </html>

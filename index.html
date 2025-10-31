@@ -2,49 +2,53 @@
 <html lang="nl">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Odiddo</title>
-  <link rel="icon" type="image/svg+xml" href="images/favicon.ico">
-  <link rel="stylesheet" href="styles/style.css">
-
+  <link rel="icon" type="image/svg+xml" href="./images/favicon.ico" />
+  <link rel="stylesheet" href="./style.css" />
 </head>
 
 <body>
   <header>
+    <!-- TOP NAV -->
     <nav class="top-nav">
       <ul>
-        <li><a href="https://www.odido.nl/" class="active">Consument</a></li>
-        <li><a href="https://www.odido.nl/zakelijk" class="active">Zakelijk</a></li>
+        <li><button type="button" aria-pressed="true">Consument</button></li>
+        <li><button type="button" aria-pressed="false">Zakelijk</button></li>
       </ul>
     </nav>
+    <!-- Test nav -->
 
-    <nav class="bottom-nav">
-      <img src="images/odido-logo.svg" alt="">
-      <ul class="icons">
+    <!-- end test nav -->
+    <!-- BOTTOM NAV -->
+    <nav>
+      <img src="./images/odido-logo.svg" alt="Odido logo" />
+      <ul>
         <li>
-          <a href="https://www.odido.nl/login" target="_blank"></a>
-          <img src="images/person.png" alt="">
-
+          <a href="https://www.odido.nl/login" target="_blank" rel="noopener">
+            <img src="./images/person.png" alt="Inloggen" />
+          </a>
         </li>
         <li>
-
-          <img src="images/search.png" alt="">
-        </li>
-
-        <li>
-          <a href="https://www.odido.nl/zakelijk/shop/bestellen/winkelwagen?ch=es&cc=bus&sc=acq" target="_blank"></a>
-          <img src="images/shopping-bag.png" alt="">
+          <img src="./images/search.png" alt="Zoeken" />
         </li>
         <li>
-          <img src="images/menu.png" alt="">
+          <a href="https://www.odido.nl/zakelijk/shop/bestellen/winkelwagen?ch=es&cc=bus&sc=acq" target="_blank"
+            rel="noopener">
+            <img src="./images/shopping-bag.png" alt="Winkelwagen" />
+          </a>
+        </li>
+        <li>
+          <img src="./images/menu.png" alt="Menu" />
         </li>
       </ul>
     </nav>
   </header>
 
-  <section>
 
+  <!-- 1 -->
+  <section>
     <h1>Glasvezel internet.</h1>
     <h2>Glasvezel internet. Eerste 12 maanden voor € 19,95/mnd.</h2>
     <p>
@@ -52,116 +56,111 @@
       Daarna betaal je minimaal € 35 per maand voor internet van 100 Mbit/s.
       Bekijk je persoonlijke aanbod via de postcodecheck.
     </p>
-    <img src="images/hc-fg-c_internet-tv_648x648.webp" alt="hc-fg-c-internet-tv">
+
+    <img src="./images/hc-fg-c_internet-tv_648x648.webp" alt="Glasvezel internet en TV" />
+
     <ul>
       <li>
         <a href="https://www.odido.nl/shop/internet/product/zelf-samenstellen?ch=es&cc=con&sc=acq&dr=24&pr=CYR01,IFO03,IOR,ACTIV01"
-          target="_blank">Doe de postcodecheck</a>
+          target="_blank" rel="noopener">Doe de postcodecheck</a>
       </li>
       <li>
-        <a href="https://www.odido.nl/prijzenslag" target="_blank">Prijzenslag winweken</a>
+        <a href="https://www.odido.nl/prijzenslag" target="_blank" rel="noopener">Prijzenslag winweken</a>
       </li>
     </ul>
 
-    
-
-   
-
-<div><img src="images/lijntjes1.svg" alt="">
-    <img src="images/gele-lijntjes.svg" alt=""></div>
-
+    <div>
+      <img src="./images/lijntjes1.svg" alt="" />
+      <img src="./images/gele-lijntjes.svg" alt="" />
+    </div>
   </section>
 
-  <section class="services"> <ul>
-  <li>
-    <img src="images/order-additional-products.svg" alt="Mobiel">
-    <span>Mobiel</span>
-    <span class="arrow">›</span>
-  </li>
-  <li>
-    <img src="images/tv-wifi.svg" alt="Internet + TV">
-    <span>Internet + TV</span>
-    <span class="arrow">›</span>
-  </li>
-  <li>
-    <img src="images/refresh.svg" alt="Verlengen">
-    <span>Verlengen</span>
-    <span class="arrow">›</span>
-  </li>
-  <li>
-    <img src="images/fiber.svg" alt="Glasvezel">
-    <span>Glasvezel</span>
-    <span class="arrow">›</span>
-  </li>
-</ul></section>
+  <!-- 2 -->
+  <section>
+    <ul>
+      <li>
+        <img src="./images/order-additional-products.svg" alt="Mobiel" />
+        <span>Mobiel</span>
+        <span>›</span>
+      </li>
+      <li>
+        <img src="./images/tv-wifi.svg" alt="Internet + TV" />
+        <span>Internet + TV</span>
+        <span>›</span>
+      </li>
+      <li>
+        <img src="./images/refresh.svg" alt="Verlengen" />
+        <span>Verlengen</span>
+        <span>›</span>
+      </li>
+      <li>
+        <img src="./images/fiber.svg" alt="Glasvezel" />
+        <span>Glasvezel</span>
+        <span>›</span>
+      </li>
+    </ul>
+  </section>
 
- <section class="beste">
-  <h2>Het beste van Mobiel, Glasvezel en TV.</h2>
+  <!-- 3 -->
+  <section>
+    <h2>Het beste van Mobiel, Glasvezel en TV.</h2>
+    <img src="./images/hc-fg-c_samsung_galaxys25_galaxywatch8_648x648.webp"
+      alt="Samsung Galaxy S25 met Galaxy Watch8" />
+    <h3>
+      Nu € 347 voordeel + <span class="promo-link">Galaxy Watch8</span> t.w.v. € 429 cadeau. Bij de Samsung
+      Galaxy S25 128 GB.
+    </h3>
+    <ul>
+      <li>
+        <a href="https://www.odido.nl/samsung/galaxy-s25?id=22009813&memory=128GB&color=Zwart&shop=product&ch=es&cc=con&sc=acq&dr=24&pr=MAR01,MAP07,SK328,27606114&lp=1"
+          target="_blank" rel="noopener">bestel nu</a>
+      </li>
+      <li>
+        <a href="https://www.odido.nl/zakelijk/samsung/galaxy-s25?id=22009813&memory=128GB&color=Zwart&shop=product&ch=es&cc=bus&sc=acq&dr=24&pr=GNZ01,GNZ16,SD044,27606114&lp=18"
+          target="_blank" rel="noopener">zakelijk bestellen</a>
+      </li>
+    </ul>
+    <p>
+      Voordeel bestaat uit € 347 toestelkorting op de Samsung Galaxy S25 128
+      GB (o.b.v. adviesverkoopprijs € 899 in de Odido Shop). Samsung actie
+      loopt t/m 28 september 2025. Claimen van Galaxy Watch8 LTE 40mm kan via
+      <a href="https://www.samsung.com/nl/promo/" target="_blank" rel="noopener">samsung.com/nl/promo</a>
+      t/m 5 december 2025.
+    </p>
+  </section>
 
-  <img src="images/hc-fg-c_samsung_galaxys25_galaxywatch8_648x648.webp"
-       alt="Samsung Galaxy S25 met Galaxy Watch8">
-
-  <h3>
-    Nu € 347 voordeel + Galaxy Watch8 t.w.v. € 429 cadeau. Bij de Samsung
-    Galaxy S25 128 GB.
-  </h3>
-
-
-  <ul class="button">
-    <li>
-      <a href="https://www.odido.nl/samsung/galaxy-s25?id=22009813&memory=128GB&color=Zwart&shop=product&ch=es&cc=con&sc=acq&dr=24&pr=MAR01,MAP07,SK328,27606114&lp=1"
-         target="_blank" rel="noopener">bestel nu</a>
-    </li>
-    <li>
-      <a href="https://www.odido.nl/zakelijk/samsung/galaxy-s25?id=22009813&memory=128GB&color=Zwart&shop=product&ch=es&cc=bus&sc=acq&dr=24&pr=GNZ01,GNZ16,SD044,27606114&lp=18"
-         target="_blank" rel="noopener">zakelijk bestellen</a>
-    </li>
-  </ul>
-
-  <p>
-    Voordeel bestaat uit € 347 toestelkorting op de Samsung Galaxy S25 128
-    GB (o.b.v. adviesverkoopprijs € 899 in de Odido Shop). Samsung actie
-    loopt t/m 28 september 2025. Claimen van Galaxy Watch8 LTE 40mm kan via
-    <a href="https://www.samsung.com/nl/promo/" target="_blank" rel="noopener">samsung.com/nl/promo</a>
-    t/m 5 december 2025.
-  </p>
-</section>
-
-
-  <section class="sim">
-  <img src="images/hc-fg-c_simkaart_648x648.webp" alt="simkaart">
-
-  <h3>Unlimited vanaf € 19,95/mnd. 
+  <!-- 4 -->
+  <section>
+    <img src="./images/hc-fg-c_simkaart_648x648.webp" alt="Simkaart" />
+    <h3>Unlimited vanaf € 19,95/mnd.
       Met 2-jarig Sim Only abonnement i.c.m. Klantvoordeel.*</h3>
+    <ul>
+      <li>
+        <a href="https://www.odido.nl/mobiel-abonnement/sim-only?shop=product&ch=es&cc=con&sc=acq&dr=24&pr=MAR01,MAP11,27606114"
+          target="_blank" rel="noopener">bestel nu</a>
+      </li>
+    </ul>
+    <p>
+      Excl. evt. inflatiecorrectie. Betreft 2-jarig Unlimited Start 5G
+      abonnement (onbeperkte data 20 Mbit/s in NL (40 GB EU)), onbeperkt
+      Bellen/Sms NL/EU (zonder Klantvoordeel € 24,95/mnd).
+    </p>
+  </section>
 
-  <ul>
-    <li>
-      <a href="https://www.odido.nl/mobiel-abonnement/sim-only?shop=product&ch=es&cc=con&sc=acq&dr=24&pr=MAR01,MAP11,27606114"
-        target="_blank">bestel nu</a>
-    </li>
-  </ul>
-
-  <p>
-    Excl. evt. inflatiecorrectie. Betreft 2-jarig Unlimited Start 5G
-    abonnement (onbeperkte data 20 Mbit/s in NL (40 GB EU)), onbeperkt
-    Bellen/Sms NL/EU (zonder Klantvoordeel € 24,95/mnd).
-  </p>
-</section>
-
-
-  <section class="oppo">
-    <img src="images/hc-fg-c_keyvisual_google_pixel10_pro_moonstone_648x648.webp" alt="pixel-10-pro?id">
+  <!-- 5 -->
+  <section>
+    <img src="./images/hc-fg-c_keyvisual_google_pixel10_pro_moonstone_648x648.webp" alt="Google Pixel 10 Pro" />
     <h3>Nieuw:Google Pixel 10 Serie.
       Nu € 351 voordeel.* + 1 jaar Google AI Pro t.w.v. € 219 cadeau.</h3>
     <h4>Op de Google Pixel 10 Pro 128 GB.</h4>
-    <ul class="google pixel">
+    <ul>
       <li>
         <a href="https://www.odido.nl/mobiel-abonnement/sim-only?shop=product&ch=es&cc=con&sc=acq&dr=24&pr=MAR01,MAP11,27606114"
-          target="_blank" class="knop-link">bestel nu</a>
+          target="_blank" rel="noopener">bestel nu</a>
       </li>
       <li>
         <a href="https://www.odido.nl/zakelijk/google/pixel-10-pro?id=22038167&memory=128GB&color=Zwart&shop=product&ch=es&cc=bus&sc=acq&dr=24&pr=GNZ01,GNZ16,SD062,27606114&lp=18"
-          target="_blank" class="knop-link">zakelijk bestellen</a>
+          target="_blank" rel="noopener">zakelijk bestellen</a>
       </li>
     </ul>
     <p>
@@ -170,30 +169,30 @@
     </p>
   </section>
 
-  <section class="klik-en-klaar-internet">
-    <img src="images/klik-en-klaar-winweken.webp" alt="">
-    <h3>Klik&Klaar Internet. 
+  <!-- 6 -->
+  <section>
+    <img src="./images/klik-en-klaar-winweken.webp" alt="Klik & Klaar Internet" />
+    <h3>Klik&Klaar Internet.
       Voor maar € 25/mnd. gratis aansluiten*</h3>
     <p>
       Klik&Klaar Internet is goed en snel 5G-internet voor thuis. Echt iets
       voor jou als je genoeg hebt aan alleen internet. En als je van gemak,
       flexibiliteit en lage kosten houdt.
     </p>
-    <ul class="netwerk">
+    <ul>
       <li>Eindeloos internetten via ons 5G-netwerk.</li>
       <li>Altijd een vaste lage prijs per maand.</li>
       <li>Maandelijks opzegbaar.</li>
       <li>Elke maand € 5 extra korting met Klantvoordeel.</li>
     </ul>
 
-    <ul class="klik button">
+    <ul>
       <li>
         <a href="https://www.odido.nl/mobiel-abonnement/sim-only?shop=product&ch=es&cc=con&sc=acq&dr=24&pr=MAR01,MAP11,27606114"
-          target="_blank" class="knop-link">bestel nu</a>
+          target="_blank" rel="noopener">bestel nu</a>
       </li>
       <li>
-        <a href="https://www.odido.nl/internet/klik-en-klaar" target="_blank" class="knop-link">Meer over
-          klik&klaar</a>
+        <a href="https://www.odido.nl/internet/klik-en-klaar" target="_blank" rel="noopener">Meer over klik&klaar</a>
       </li>
     </ul>
     <p>
@@ -204,29 +203,28 @@
     </p>
   </section>
 
-  <section class="iphone16">
-    <img src="images/hc-fg-c_apple_iphone16_648x648.webp" alt="iphone 16">
+  <!-- 7 -->
+  <section>
+    <img src="./images/hc-fg-c_apple_iphone16_648x648.webp" alt="iPhone 16" />
     <h3>Nu € 297 voordeel.*
       Op de iPhone 16 128 GB.Supersnel. Superslim.</h3>
-    <h2></h2>
-    <ul class="button">
+    <ul>
       <li>
         <a href="https://www.odido.nl/mobiel-abonnement/sim-only?shop=product&ch=es&cc=con&sc=acq&dr=24&pr=MAR01,MAP11,27606114"
-          target="_blank" class="knop-link">bestel nu</a>
+          target="_blank" rel="noopener">bestel nu</a>
       </li>
       <li>
         <a href="https://www.odido.nl/zakelijk/google/pixel-10-pro?id=22038167&memory=128GB&color=Zwart&shop=product&ch=es&cc=bus&sc=acq&dr=24&pr=GNZ01,GNZ16,SD062,27606114&lp=18"
-          target="_blank" class="knop-link">zakelijk bestellen</a>
+          target="_blank" rel="noopener">zakelijk bestellen</a>
       </li>
     </ul>
-    <p>
-      * Voordeel bestaat uit € 237 toestelkorting op de iPhone 16 128 GB
-      (o.b.v. adviesverkoopprijs € 969 in de Odido Shop).
-    </p>
+    <p>* Voordeel bestaat uit € 237 toestelkorting op de iPhone 16 128 GB (o.b.v. adviesverkoopprijs € 969 in de Odido
+      Shop).</p>
   </section>
 
-  <section class="winweken">
-    <img src="images/winweken-prijzen-648x648.webp" alt="">
+  <!-- 8 -->
+  <section>
+    <img src="./images/winweken-prijzen-648x648.webp" alt="Prijzenslag prijzen" />
     <h3>Maak kans op 1 van de 1995 toffe prijzen.</h3>
     <p>
       Met waanzinnig voordeel op mobiele abonnementen en telefoons. Ook maak
@@ -240,58 +238,69 @@
       <li>En nog veel meer</li>
     </ul>
     <p>Daar word je toch blij van?</p>
-    <a href="https://www.odido.nl/prijzenslag#se2" target="_blank" class="knop-link">ontdenk alle prijzen</a>
+    <a href="https://www.odido.nl/prijzenslag#se2" target="_blank" rel="noopener">ontdenk alle prijzen</a>
   </section>
 
+  <!-- 9 -->
   <section>
-    <img src="images/mobile-home.svg" alt="mobile-home">
+    <img src="./images/mobile-home.svg" alt="Odido Business icoon" />
     <h2>Odido Business</h2>
     <p>
-      Kies voor een mobiel abonnement of vast internet voor op zaak. We zijn
-      er voor je.
+      Kies voor een mobiel abonnement of vast internet voor op zaak. We zijn er voor je.
     </p>
     <ul>
-      <li>
-        <a href="https://www.odido.nl/zakelijk/mobiele-abonnementen" target="_blank" class="knop-link">zakelijk
-          mobiel</a>
-      </li>
-      <li>
-        <a href="https://www.odido.nl/zakelijk/internet" target="_blank" class="knop-link">zakelijk internet</a>
-      </li>
+      <li><a href="https://www.odido.nl/zakelijk/mobiele-abonnementen" target="_blank" rel="noopener">zakelijk
+          mobiel</a></li>
+      <li><a href="https://www.odido.nl/zakelijk/internet" target="_blank" rel="noopener">zakelijk internet</a></li>
     </ul>
   </section>
 
+  <!-- 10 -->
+   <section>
+    <h2>De nieuwste <span class="promo-link">telefoons</span> en <span class="promo-link">smartwatches</span>.</h2>
+
+    <div class="card card--overlay">
+      <img src="./images/hc-fg-c_samsung_galaxy_s25fe_navy_648x648_keyvisual.webp" alt="">
+      <h2>Samsung galaxy s25 Fe</h2>
+      <p>Krijg nu een galaxy watch7 cadeau.</p>
+      <a href="https://www.odido.nl/samsung/galaxy-s25-fe?id=22009832&memory=128GB&color=Donkerblauw&shop=product&ch=es&cc=con&sc=acq&dr=24&pr=MAR01,MAP07,SK324,27606114&lp=1"
+        target="_blank" class="knop-link">knop</a>
+    </div>
+
+    <div class="card">
+      <img src="./images/2024-0119-odd-tablet-visuals-dvi-front-back-samsung-galaxy-tab-a9-305x450.webp" alt="">
+      <h3>Samsung Galaxy Tab A9+</h3>
+      <p>Nu €155 voordeel.</p>
+      <a href="https://www.odido.nl/samsung/galaxy-tab-a9-plus?id=22039379&memory=64GB&color=Zwart&shop=product&ch=es&cc=con&sc=acq&dr=24&pr=MAT01,MAT21,SK307,27606115&lp=2"
+        target="_blank" class="knop-link">knop</a>
+    </div>
+
+    <div class="card card--dark card--overlay">
+      <img src="./images/watch-s2-ultra-black.webp" alt="">
+      <h3>Apple watch series 10 en ultra 2</h3>
+      <p>Blijf altijd en overal verbonden. Met Odiddo Multism.</p>
+      <a href="https://www.odido.nl/shop/alle-smartwatches?ch=es&cc=con&sc=acq&brand=Apple" target="_blank"
+        class="knop-link">knop</a>
+    </div>
+
+    <div class="card">
+      <img src="./images/hc-fg-c_oppo_reno14_encoair4probuds_supervooc_648x648.webp" alt="">
+      <h3>Oppo Reno14</h3>
+      <p>Nu €119 voordeel + Air 4 pro en SUPERVOOC snellader cadeau</p>
+      <a href="https://www.odido.nl/oppo/reno14?id=22035796&memory=256GB&color=Groen&shop=product&ch=es&cc=con&sc=acq&dr=24&pr=MAR01,MAP07,SK324,27606114&lp=1"
+        target="_blank" class="knop-link">knop</a>
+    </div>
+
+    <div class="card">
+      <img src="./images/placeholder.png" alt="illustratie">
+      <h3>We zorgen dat iedereen kan meedoen.ieder op een eigen manier.</h3>
+      <a href="https://www.odido.nl/het-kan-ook-zo" target="_blank" class="knop-link">knop</a>
+    </div>
+
+    </section>
+  <!-- 11 -->
   <section>
-    <h1>De nieuwste telefoons en smartwatches.</h1>
-    <img src="images/hc-fg-c_samsung_galaxy_s25fe_navy_648x648_keyvisual.webp" alt="">
-    <h2>Samsung galaxy s25 Fe</h2>
-    <p>Krijg nu een galaxy watch7 cadeau.</p>
-    <a href="https://www.odido.nl/samsung/galaxy-s25-fe?id=22009832&memory=128GB&color=Donkerblauw&shop=product&ch=es&cc=con&sc=acq&dr=24&pr=MAR01,MAP07,SK324,27606114&lp=1"
-      target="_blank" class="knop-link">knop</a>
-
-    <img src="images/2024-0119-odd-tablet-visuals-dvi-front-back-samsung-galaxy-tab-a9-305x450.webp" alt="">
-    <h2>Samsung Galaxy Tab A9+</h2>
-    <p>Nu €155 voordeel.</p>
-    <a href="https://www.odido.nl/samsung/galaxy-tab-a9-plus?id=22039379&memory=64GB&color=Zwart&shop=product&ch=es&cc=con&sc=acq&dr=24&pr=MAT01,MAT21,SK307,27606115&lp=2"
-      target="_blank" class="knop-link">knop</a>
-
-    <img src="images/watch-s2-ultra-black.webp" alt="">
-    <h2>Apple watch series 10 en ultra 2</h2>
-    <p>Blijf altijd en overal verbonden. Met Odiddo Multism.</p>
-    <a href="https://www.odido.nl/shop/alle-smartwatches?ch=es&cc=con&sc=acq&brand=Apple" target="_blank"
-      class="knop-link">knop</a>
-
-    <img src="images/hc-fg-c_oppo_reno14_encoair4probuds_supervooc_648x648.webp" alt="">
-    <h2>Oppo Reno14</h2>
-    <p>Nu €119 voordeel + Air 4 pro en SUPERVOOC snellader cadeau</p>
-    <a href="https://www.odido.nl/oppo/reno14?id=22035796&memory=256GB&color=Groen&shop=product&ch=es&cc=con&sc=acq&dr=24&pr=MAR01,MAP07,SK324,27606114&lp=1"
-      target="_blank" class="knop-link">knop</a>
-
-    <img src="images/placeholder.png" alt="illustratie">
-    <h2>We zorgen dat iedereen kan meedoen.ieder op een eigen manier.</h2>
-    <a href="https://www.odido.nl/het-kan-ook-zo" target="_blank" class="knop-link">knop</a>
-
-    <ul class="service-list">
+   <ul class="service-list">
       <li class="service service-phone">
         <h3>Bel met Odido Service.</h3>
         <p>Liever contact met onze klantenservice? Bellen kan natuurlijk ook!</p>
@@ -309,46 +318,47 @@
       </li>
     </ul>
   </section>
+      <footer>
+        <nav>
+          <ul>
+            <li><a href="">Populaire telefoons</a></li>
+            <li><a href="">Mobiel</a></li>
+            <li><a href="">Internet + TV</a></li>
+            <li><a href="">Service en contact</a></li>
+            <li><a href="">Snel naar</a></li>
+          </ul>
+        </nav>
 
-  <footer>
-    <nav>
-      <ul>
-        <li><a href="">Populaire telefoons</a></li>
-        <li><a href="">Mobiel</a></li>
-        <li><a href="">Internet + TV</a></li>
-        <li><a href="">Service en contact</a></li>
-        <li><a href="">Snel naar</a></li>
-      </ul>
-    </nav>
+        <ul>
+          <li><a href=""><img src="./images/instagram-icon.svg" alt="Instagram" /></a></li>
+          <li><a href=""><img src="./images/facebook-icon.svg" alt="Facebook" /></a></li>
+          <li><a href=""><img src="./images/linkedin-icon.svg" alt="LinkedIn" /></a></li>
+          <li><a href=""><img src="./images/youtube-icon.svg" alt="YouTube" /></a></li>
+        </ul>
 
-    <ul class="social-media">
-      <li><a href=""><img src="images/instagram-icon.svg" alt="Instagram"></a></li>
-      <li><a href=""><img src="images/facebook-icon.svg" alt="Facebook"></a></li>
-      <li><a href=""><img src="images/linkedin-icon.svg" alt="LinkedIn"></a></li>
-      <li><a href=""><img src="images/youtube-icon.svg" alt="YouTube"></a></li>
-    </ul>
+        <ul>
+          <li><a href=""><img src="./images/appstore-badge.svg" alt="Download op App Store" /></a></li>
+          <li><a href=""><img src="./images/googleplay-badge.svg" alt="Download op Google Play" /></a></li>
+        </ul>
 
-    <ul class="app-downloads">
-      <li><a href=""><img src="images/appstore-badge.svg" alt="Download op App Store"></a></li>
-      <li><a href=""><img src="images/googleplay-badge.svg" alt="Download op Google Play"></a></li>
-    </ul>
+        <nav>
+          <ul>
+            <li><a href="/over-ons">Over Odido</a></li>
+            <li><a href="https://newsroom.odido.nl/">Odido nieuws</a></li>
+            <li><a href="https://werkenbij.odido.nl/vacatures">Werken bij Odido</a></li>
+            <li><a href="/blog/">Blog</a></li>
+            <li><a href="/tarieven">Tarieven</a></li>
+            <li><a href="/voorwaarden">Voorwaarden</a></li>
+            <li><a href="/privacy">Privacy</a></li>
+            <li><a href="/cookies">Cookies</a></li>
+            <li><a href="/toegankelijkheid">Toegankelijkheid</a></li>
+          </ul>
+        </nav>
 
-    <nav class="footer-links">
-      <ul>
-        <li><a href="/over-ons">Over Odido</a></li>
-        <li><a href="https://newsroom.odido.nl/">Odido nieuws</a></li>
-        <li><a href="https://werkenbij.odido.nl/vacatures">Werken bij Odido</a></li>
-        <li><a href="/blog/">Blog</a></li>
-        <li><a href="/tarieven">Tarieven</a></li>
-        <li><a href="/voorwaarden">Voorwaarden</a></li>
-        <li><a href="/privacy">Privacy</a></li>
-        <li><a href="/cookies">Cookies</a></li>
-        <li><a href="/toegankelijkheid">Toegankelijkheid</a></li>
-      </ul>
-    </nav>
+        <p>© Odido. Alle rechten voorbehouden.</p>
+      </footer>
 
-    <p>© Odido. Alle rechten voorbehouden.</p>
-  </footer>
+      <script src="/scripts/script.js"></script>
 </body>
 
 </html>
